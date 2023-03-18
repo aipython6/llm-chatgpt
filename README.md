@@ -1,6 +1,6 @@
 # LLM ChatGPT
 
-- [ChatGPT Web](#chatgpt-web)
+- [LLM ChatGPT]
   - [介绍](#介绍)
   - [前置要求](#前置要求)
     - [Node](#node)
@@ -133,8 +133,6 @@ pnpm dev
 ### 使用 Docker
 
 #### Docker 参数示例
-
-![docker](./docs/docker.png)
 
 #### Docker build & Run
 
