@@ -16,7 +16,7 @@ app.all('*', (_, res, next) => {
   res.header('Access-Control-Allow-Methods', '*')
   next()
 })
-
+//请求答案的路由
 router.post('/chat-process', auth, async (req, res) => {
   res.setHeader('Content-type', 'application/octet-stream')
 

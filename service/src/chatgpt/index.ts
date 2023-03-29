@@ -99,7 +99,7 @@ async function chatReplyProcess(
     return sendResponse({ type: 'Fail', message: error.message ?? 'Please check the back-end console' })
   }
 }
-
+// 配置API_KEY和BASE_URL
 async function fetchBalance() {
   const OPENAI_API_KEY = process.env.OPENAI_API_KEY
   const OPENAI_API_BASE_URL = process.env.OPENAI_API_BASE_URL

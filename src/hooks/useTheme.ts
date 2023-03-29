@@ -3,6 +3,7 @@ import { computed, watch } from 'vue'
 import { darkTheme, useOsTheme } from 'naive-ui'
 import { useAppStore } from '@/store'
 
+// 添加了一些主题的配置
 export function useTheme() {
   const appStore = useAppStore()
 
